@@ -1,0 +1,9 @@
+tricks to convert python file to exe
+install module pyinstaller
+run in command
+pyinstaller filename.py
+
+
+it will create three files
+spec,dist and build
+in dist file exe will be stored
