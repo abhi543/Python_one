@@ -1,7 +1,13 @@
-condition=True 
+class Employee: 
+    empCount=0 
 
-if condition: 
-    x=1 
-else: 
-    x=0 
-print(x)
+def __init__(self,name,salary): 
+    self.name=name 
+    self.salary=salary 
+    Employee.empCount +=1 
+    
+def displayCount(self): 
+    print "Total Employee %d" % Employee.empCount 
+    
+def displayEmployee(self): 
+    print("Name: ", self.name, ",Salary: ",self.salary)
